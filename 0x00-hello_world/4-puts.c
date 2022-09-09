@@ -1,4 +1,5 @@
-#include <studion.h>
+vim 4-puts.c
+#include <studio.h>
 
 /**
  * *main - Entry point
@@ -11,4 +12,3 @@ int main(void)
 
 	return (0);
 }
-
