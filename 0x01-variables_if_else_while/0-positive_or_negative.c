@@ -1,27 +1,33 @@
-#include <stdlib.h>
+#include <cstdlib> 
 
-#include <time.h>
+#include <ctime> 
 
-/* more headers goes there */
+  
 
-
-
-/* betty style doc for function main goes there */
-
-int main(void)
+int main()
 
 {
 
-		int n;
+	    std::srand(static_cast<unsigned int>(std::time(nullptr))); 
 
+	      
 
+	        for (int count=1; count <= 100; ++count)
 
-			srand(time(0));
+			    {
 
-				n = rand() - RAND_MAX / 2;
+				            std::cout << std::rand() << "\t";
 
-					/* your code goes there */
+					      
 
-					return (0);
-
-}
+					            // display 5 random numbers per row
+						    //
+						    //         if (count % 5 == 0)
+						    //
+						    //                     std::cout << "\n";
+						    //
+						    //                          }
+						    //
+						    //                            return 0;
+						    //
+						    //                            }
