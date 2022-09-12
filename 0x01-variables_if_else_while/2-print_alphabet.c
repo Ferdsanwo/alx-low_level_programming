@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- *main - entry point
- *
- *Return: 0
- */
+*main - entry point
+*
+*Return: 0
+*/
 
 
 
@@ -17,20 +17,18 @@ int main(void)
 
 			int i = 0;
 
-				/* your code goes there */
+
 
 				while (i < 26)
 
 						{
 
-									putchar(ch);
+							putchar(ch);
 
 											ch++;
-
-													i++;
+											i++;
 
 														}
-
 					putchar('\n');
 
 						return (0);
