@@ -1,33 +1,31 @@
-#include <cstdlib> 
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
-#include <ctime> 
-
-  
-
-int main()
+/**
+ * main - Entry point
+ *
+ * Return: 0
+ */
+int main(void)
 
 {
 
-	    std::srand(static_cast<unsigned int>(std::time(nullptr))); 
+		int n;
+               
 
-	      
 
-	        for (int count=1; count <= 100; ++count)
+			srand(time(0));
 
-			    {
+				n = rand() - RAND_MAX / 2;
 
-				            std::cout << std::rand() << "\t";
+				if (n > 0)
+                                     printf("%d is positive\n", n);
+				else if ( n == 0)
+			   	     printf("%d is zero\n", n);
+				else 
+				     printf("%d is negative\n", n);
 
-					      
+					return (0);
 
-					            // display 5 random numbers per row
-						    //
-						    //         if (count % 5 == 0)
-						    //
-						    //                     std::cout << "\n";
-						    //
-						    //                          }
-						    //
-						    //                            return 0;
-						    //
-						    //                            }
+}
