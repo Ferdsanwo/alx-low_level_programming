@@ -19,7 +19,7 @@ int main(void)
 
 
 
-				while (i < 6)
+				while (i < 26)
 
 						{
 				putchar(ch);
