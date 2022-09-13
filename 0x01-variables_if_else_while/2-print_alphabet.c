@@ -19,16 +19,13 @@ int main(void)
 
 
 
-				while (i < 26)
+				while (i < 6)
 
 						{
-
-							putchar(ch);
-
+				putchar(ch);
 											ch++;
 											i++;
-
-														}
+						}
 					putchar('\n');
 
 						return (0);
