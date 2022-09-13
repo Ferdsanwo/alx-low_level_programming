@@ -13,22 +13,16 @@ int main(void)
 
 {
 		char ch = 'a';
+		int i = 0;
+		while (i < 26)
 
-			int i = 0;
+	{
+		if (ch != 'q' &&  ch != 'e')
+			putchar(ch);
+			ch++;
+			i++;
+	}
+			putchar('\n');
 
-				while (i < 26)
-
-						{
-									if (ch != 'q' &&  ch != 'e')
-
-													putchar(ch);
-
-											ch++;
-
-													i++;
-														}
-
-					putchar('\n');
-
-						return (0);
+		return (0);
 }
