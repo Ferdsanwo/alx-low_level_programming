@@ -1,27 +1,41 @@
 #include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
+#include <stdlib.h>
 
 /**
- *main - entry point
+ *main - entry - point
  *
  *Return: 0
  */
 
+
+
 int main(void)
+
 {
-	char letter;
 
-		for (letter = 'a'; letter <= 'z'; letter++)
+		char ch = 'a';
 
-			putchar(letter);
-
-		for (letter = 'A'; letter <= 'Z'; letter++)
-
-			putchar(letter);
+			int i = 0;
 
 
-			putchar('\n');
+				while (i < 26)
 
-			return (0);
+						{
+
+									if (ch != 'q' &&  ch != 'e')
+
+													putchar(ch);
+
+											ch++;
+
+													i++;
+
+														}
+
+					putchar('\n');
+
+						return (0);
+
 }
+
+
