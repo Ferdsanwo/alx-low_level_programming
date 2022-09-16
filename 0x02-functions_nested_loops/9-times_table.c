@@ -1,11 +1,24 @@
 #include "main.h"
+<<<<<<< HEAD
 
 
 
-/**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  *jack_bauer -prints every minute of the day
  *
- * demola
  *
  *Return: Always 0.
  */
@@ -56,4 +69,19 @@ void jack_bauer(void)
 
 
 
+=======
+#include <stdio.h>
+
+
+/**
+ * add -prints add two numbers
+ * @i: print int i
+ * @k: print int k
+ * Return: Always 0.
+ */
+
+int add(int i, int k)
+{
+	return (i + k);
+>>>>>>> 2c6f1cf3ba1aa0f57923a4e58a531f08070defe0
 }
