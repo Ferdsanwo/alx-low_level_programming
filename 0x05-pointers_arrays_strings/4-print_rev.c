@@ -7,23 +7,27 @@
  *
  *@s: the used string reference pointer
  *
- *Return: 0
+ * Return: 0
  */
+
+
 
 void print_rev(char *s)
 
 {
 
-	int i = 0;
+		int i = 0;
 
-	while (s[i])
 
-		i++;
 
-	while (i--)
+			while (s[i])
 
-		_putchar(s[i]);
+						i++;
 
-		_putchar('\n');
+				while (i--)
+
+							_putchar(s[i]);
+
+					_putchar('\n');
 
 }
