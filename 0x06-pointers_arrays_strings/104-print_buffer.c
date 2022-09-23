@@ -5,14 +5,12 @@
 
 
 /**
+ *isPrintableASCII - determines if n is a printable ASCII char
  *
- *  * isPrintableASCII - determines if n is a printable ASCII char
+ *@n: integer
  *
- *   * @n: integer
- *
- *    * Return: 1 if true, 0 if false
- *
- *     */
+ *Return: 1 if true, 0 if false
+ */
 
 
 
@@ -27,16 +25,14 @@ int isPrintableASCII(int n)
 
 
 /**
+ *printHexes - print hex values for string b in formatted form
  *
- *  * printHexes - print hex values for string b in formatted form
+ *@b: string to print
  *
- *   * @b: string to print
+ *@start: starting position
  *
- *    * @start: starting position
- *
- *     * @end: ending position
- *
- *      */
+ *@end: ending position
+ */
 
 
 
